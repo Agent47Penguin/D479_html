@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header,
+footer {
+    background-color: #0077b6;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-spacer {
+    flex: 0.1;
+    visibility: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffb703;
+    border-bottom: 2px solid #ffb703;
+}
+
+section {
+    padding: 2rem 0;
+    background-color: white;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"],
+.search-form button {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+section {
+    color: black;
+    background-color: white;
+}
+
+#intro {
+    background: url('images/hero_home.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#accommodations-intro {
+    background: url('images/accomodation.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#intro .hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#accommodations-intro .hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#intro h2 {
+    font-size: 2.5rem;
+}
+
+#accommodations-intro h2 {
+    font-size: 2.5rem;
+}
+
+#intro p {
+    font-size: 1.2rem;
+}
+
+#accommodations-intro p {
+    font-size: 1.2rem;
+}
+
+#intro button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+#about-taniti {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#about-taniti h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+#about-taniti p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: auto;
+}
+
+#about-taniti button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.accommodations-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.accommodation {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accommodation h2 {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.accommodation p {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.accommodation button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.transport-container {
+    padding: 20px;
+}
+
+#air-travel,
+#ground-transport {
+    margin-bottom: 20px;
+}
+
+.transport-option {
+    background-size: cover;
+    color: white;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transport-option h3 {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
